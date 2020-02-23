@@ -1,4 +1,4 @@
-name: PyLint Runner
+name: Statics Runner
 
 on: [push]
   # Trigger the workflow on pull request,
