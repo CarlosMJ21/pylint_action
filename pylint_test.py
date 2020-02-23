@@ -10,7 +10,6 @@ Pylint test file
 
 
 # Other Libs
-import numpy as np
 
 
 # Own Libs
@@ -20,4 +19,3 @@ import numpy as np
 
 
 VAR_ONE = 1
-VAR_TWO = np.zeros(2)
