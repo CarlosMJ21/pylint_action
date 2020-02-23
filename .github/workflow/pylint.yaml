@@ -1,6 +1,6 @@
 name: PyLint Runner
 
-on: push
+on: [push]
   # Trigger the workflow on pull request,
   # but only for the master branch
   #pull_request:
@@ -8,10 +8,11 @@ on: push
       #- master
 
 jobs:
-  pylint:
+  build:
     name: Pylint jobs
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v1
     - name: Set up Python 3.7
       uses: actions/setup-python@v1
       with: 
